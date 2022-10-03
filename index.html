@@ -210,7 +210,7 @@
       <div class="nav-links">
         <ul>
           <li>
-            <a href="/all/index.html">HOME</a>
+            <a href=" https://ka-win.github.io/kawh/">HOME</a>
           </li>
           <li><a href="https://www.instagram.com/k__w__n__/">INSTAGRAM</a></li>
           <li><a href="https://amzn.to/3SPcn0u">Amazon</a></li>
@@ -277,6 +277,11 @@
     
    
     </div>
-    <script src="/all/index.js"></script>
+    <script>
+      const toogle = document.getElementsByClassName("tooglebutt")[0];
+const nav = document.getElementsByClassName("nav-links")[0];
+toogle.addEventListener("click", () => {
+  nav.classList.toggle("active");
+});</script>
   </body>
 </html>
